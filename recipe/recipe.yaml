@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: shandy-sqlfmt
-  version: 0.30.0
+  version: "0.31.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/shandy_sqlfmt-${{ version }}.tar.gz
-  sha256: 1572295da093d8577eb75b1eb17d7cc0b2929d00a72e30ca5369645d0265de60
+  sha256: 229306cc1f3a4b38987bd298e2c51029dddd50783629adcd625fe7feb515cde6
 
 build:
   number: 0
